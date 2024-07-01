@@ -1,5 +1,5 @@
 --tech.lua
-local vtultraserre_tech = table.deepcopy(data.raw["technology"]["kr-greenhouse"]) 
+local vtultraserre_tech = table.deepcopy(data.raw["technology"]["kr-greenhouse"])
 
 vtultraserre_tech.name = "vt-ultraserre"
 
@@ -10,16 +10,16 @@ vtultraserre_tech.effects =
     recipe = "vt-ultraserre",
   }
 }
-vtultraserre_tech.prerequisites = {"vt-megaserre"}
-vtultraserre_tech.unit = 
+vtultraserre_tech.prerequisites = { "vt-megaserre" }
+vtultraserre_tech.unit =
 {
   count = 300,
   ingredients = {
-    { "basic-tech-card", 1 },
+    { "basic-tech-card",         1 },
     { "automation-science-pack", 1 },
-    { "logistic-science-pack", 1 }
+    { "logistic-science-pack",   1 }
   },
   time = 30,
 }
 
-data:extend{vtultraserre_tech}
+data:extend { vtultraserre_tech }
