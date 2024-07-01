@@ -13,11 +13,13 @@ atmospheric_condenser_mk2_tech.effects =
 atmospheric_condenser_mk2_tech.prerequisites = { "kr-atmosphere-condensation" }
 atmospheric_condenser_mk2_tech.unit =
 {
-  count = 300,
+  count = 3000,
   ingredients = {
-    { "basic-tech-card",         1 },
     { "automation-science-pack", 1 },
-    { "logistic-science-pack",   1 }
+    { "material-science-pack-2", 1 },
+    { "production-science-pack", 1 },
+    { "chemical-science-pack",   1 },
+    { "energy-science-pack-3",   1 }
   },
   time = 30,
 }

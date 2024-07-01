@@ -30,7 +30,7 @@ local recipe_hydrogen = {
     hide_from_player_crafting = true,
     ingredients = {},
     results = {
-        { type = "fluid", name = "hydrogen", amount = 3 },
+        { type = "fluid", name = "hydrogen", amount = 30 },
     },
     subgroup = "raw-material",
     order = "a[atmosphere-condensation]-a1[hydrogen]",
