@@ -15,11 +15,11 @@ atmospheric_condenser_mk2_tech.unit =
 {
   count = 3000,
   ingredients = {
-    { "automation-science-pack", 1 },
-    { "material-science-pack-2", 1 },
-    { "production-science-pack", 1 },
-    { "chemical-science-pack",   1 },
-    { "energy-science-pack-3",   1 }
+    { "automation-science-pack",    1 },
+    { "se-material-science-pack-3", 1 },
+    { "production-science-pack",    1 },
+    { "chemical-science-pack",      1 },
+    { "se-energy-science-pack-3",   1 }
   },
   time = 30,
 }
