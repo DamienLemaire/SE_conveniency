@@ -24,7 +24,7 @@ local recipe_hydrogen = {
     icon = kr_fluids_icons_path .. "hydrogen.png",
     icon_size = 64,
     energy_required = 20,
-    enabled = false,
+    enabled = true,
     always_show_made_in = true,
     always_show_products = true,
     hide_from_player_crafting = true,
@@ -36,3 +36,24 @@ local recipe_hydrogen = {
     order = "a[atmosphere-condensation]-a1[hydrogen]",
 }
 data:extend { recipe_hydrogen }
+
+
+local recipe_water = {
+    type = "recipe",
+    name = "se-space-coolant-water-data",
+    ingredients = {
+        { type = "fluid", name = "water", amount = 100 },
+    },
+    results = {
+        { name = "se-water-ice", amount = 1 },
+    },
+    icon = kr_fluids_icons_path .. "hydrogen.png",
+    icon_size = 64,
+    energy_required = 4,
+    subgroup = "thermofluid",
+    category = "space-hypercooling",
+    enabled = true,
+    always_show_made_in = true,
+    order = "c-a",
+}
+data:extend { recipe_water }

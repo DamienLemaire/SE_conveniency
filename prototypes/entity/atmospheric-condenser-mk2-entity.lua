@@ -9,7 +9,7 @@ atmosperic_condenser_mk2.energy_usage = "1MW"
 
 atmosperic_condenser_mk2.module_specification = {
   module_slots = 5 }
-atmosperic_condenser_mk2.crafting_speed = 6
+atmosperic_condenser_mk2.crafting_speed = 12
 
 
 data:extend { atmosperic_condenser_mk2 }
