@@ -47,7 +47,7 @@ local recipe_water = {
     results = {
         { name = "se-water-ice", amount = 1 },
     },
-    icon = kr_fluids_icons_path .. "hydrogen.png",
+    icon = "__space-exploration-graphics__/graphics/icons/water-ice.png",
     icon_size = 64,
     energy_required = 4,
     subgroup = "thermofluid",
